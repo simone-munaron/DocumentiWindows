@@ -1,0 +1,5 @@
+----- Sostituisco questa stringa
+virtualHW.version = "21"
+
+----- Aggiunto questa riga alla fine
+ulm.disableMitigations="TRUE"

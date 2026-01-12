@@ -1,0 +1,296 @@
+Nozioni di base	
+Comando CMD	Descrizione
+bitsadmin	crea e controlla i download e gli upload.
+break	interrompe il controllo su DOS tramite CTRL + C per fermare i processi nel vecchio sistema operativo. Il comando è ancora disponibile su Windows per motivi di compatibilità.
+call	richiama un file batch all’interno di un altro file batch. Il comando non funziona se lo immettete direttamente nel CMD invece che in un file batch.
+cd	mostra la cartella corrente e vi permette di spostarvi nelle altre cartelle. Con il parametro /D più indicazione di drive e percorso potete anche spostarvi in un altro drive. Con cd.. passate alla directory superiore (ha quindi la stessa funzione del comando chdir).
+chcp	cambia la pagina del codice corrente (tabella codici) o mostra il numero della pagina attuale del codice.
+chdir	mostra la cartella corrente e vi permette di spostarvi nelle altre cartelle. Con il parametro /D più indicazione di drive e percorso potete anche spostarvi in un altro drive. Con chdir.. passate alla directory superiore (ha quindi la stessa funzione del comando cd).
+choice	crea una lista di selezione: un tipico esempio è la selezione di Sì (S) o No (N), che create con /C SN. Con il parametro /M potete aggiungere un messaggio di spiegazione per l’utente.
+clip	inserisce il risultato di un comando nella cache. Così potete ad esempio copiare nella cache la struttura della directory (dir / clip) o il contenuto di un file (clip < nomefile).
+cls	cancella il contenuto sullo schermo.
+cmd	avvia CMD.EXE.
+color	cambia il colore dello sfondo (primo valore) e del testo (secondo valore) del prompt dei comandi. I colori sono compresi tra 0 (nero) e F (bianco).
+command	avvia CMD.COM.
+date	mostra la data corrente e permette di modificarla. Con il parametro /T viene mostrata solo la data senza possibilità di modifica.
+debug	avvia Debug, un programma con cui si possono testare e cambiare i programmi nel prompt dei comandi.
+dir	mostra tutte le cartelle e i file presenti nella directory corrente. Si può limitare l’output tramite attributi (/A), semplificare la lista (/B) o farsi mostrare tutte le sottocartelle e i file contenuti (/S).
+doskey	crea macro, richiama comandi ed elabora l’immissione dei comandi.
+dosshell	apre la shell di DOS, uno strumento grafico per la gestione dei file. Su Windows la shell di DOS è stata sostituita da Esplora risorse.
+echo	mostra un messaggio e viene utilizzato soprattutto all’interno di script e file batch.
+edit	avvia l’editor di MS-DOS con cui si possono creare file di testo.
+edlin	crea ed elabora i file di testo nel prompt dei comandi.
+exit	chiude CMD.EXE o CMD.COM.
+fasthelp	mostra informazioni utili sui comandi.
+fastopen	scrive la posizione di un programma in una determinata lista che si trova nella memoria e che dovrebbe accelerare l’avvio dei programmi.
+find	cerca uno o più file in una determinata sequenza di caratteri. Se volete solo sapere quante volte ricorre una parola o una frase, utilizzate il parametro /C. Aggiungendo /I il comando ignora le maiuscole e le minuscole durante la ricerca.
+findstr	trova sequenze di caratteri in uno o più file. Rispetto al comando find avete a disposizione più opzioni, così potete cercare file che contengono diversi termini o una sequenza di parole esatte con /C.
+forcedos	avvia un programma nel sistema parziale di MS-DOS, nel caso in cui non venga riconosciuto direttamente da Windows XP come programma DOS.
+graftabl	attiva la possibilità di utilizzare dei caratteri avanzati di una determinata pagina di codice nella modalità grafica.
+graphics	avvia un programma con cui possono essere stampate le grafiche.
+help	mostra un testo di aiuto per un determinato comando (in alternativa si può anche utilizzare il comando /?).
+kb16	modifica l’impostazione del paese della tastiera per i programmi DOS (il comando è ancora disponibile su Windows per motivi di compatibilità. Sostituisce il comando precedente keyb).
+keyb	modifica l’impostazione del paese della tastiera per i programmi DOS (il comando è ancora disponibile su Windows per motivi di compatibilità. Nelle versioni più recenti di Windows è stato sostituito da kb16).
+logoff	disconnette l’utente da Windows. Inoltre in questo modo potete terminare le sessioni sul server.
+lpq	mostra lo stato della coda di attesa della stampante per computer che utilizzano un Line Printer Daemon (LPD). Per utilizzare il comando su Windows 10, 8, 7 o Vista dovete prima di tutto attivare il servizio LPD Print e il monitor porta LPR.
+lpr	invia un file a un computer che utilizza Line Printer Daemon (LPD). Per utilizzare il comando su Windows 10, 8, 7 o Vista dovete prima di tutto attivare il servizio LPD Print e il monitor porta LPR.
+md	crea una nuova cartella nel percorso indicato. Se le cartelle nel percorso non dovessero esistere, md le crea automaticamente (in alternativa si può anche utilizzare il comando mkdir).
+mkdir	crea una nuova cartella nel percorso indicato. Se le cartelle nel percorso non dovessero esistere, mkdir le crea automaticamente (in alternativa si può anche utilizzare il comando md).
+more	restituisce il contenuto di un file diviso per pagine (ad esempio di un file di testo). Inoltre con questo comando potete anche suddividere per pagine l’output di un altro comando.
+msg	invia un messaggio a un altro utente. Potete scrivere il nome utente nel comando o creare file in cui salvare il nome utente, dopodiché potete integrare i file nel comando con @nomefile.
+nlsfunc	mette a disposizione informazioni specifiche per i paesi per il supporto delle lingue.
+ntbackup	esegue i backup direttamente dalla riga di comando o come parte di script o file batch.
+path	stabilisce e mostra il percorso per la ricerca di file eseguibili.
+pause	mette in pausa l’esecuzione di file batch e di script. In seguito con un messaggio viene richiesto all’utente di proseguire premendo un tasto.
+popd	si sposta nella cartella che è stata salvata con il comando pushd. Il comando fa parte soprattutto di file batch e script.
+print	stampa un file di testo. Si deve però specificare con quale dispositivo si vuole stampare.
+prompt	modifica la visualizzazione del prompt dei comandi.
+pushd	salva un determinato percorso in uno script o in un file batch. Con popd ci si può spostare in questa directory.
+qbasic	avvia Qbasic, un ambiente di programmazione basato sul linguaggio di programmazione BASIC.
+rd	elimina una cartella, in cui non sono presenti file, neanche nascosti. Con il parametro /S si possono cancellare intere strutture ad albero di cartelle (in alternativa si può utilizzare anche il comando rmdir).
+rem	scrive commenti nei file batch e negli script a cui non bisogna prestare attenzione durante l’esecuzione.
+rmdir	elimina una cartella in cui non sono presenti file, neanche nascosti. Con il parametro /S si possono cancellare intere strutture ad albero di cartelle (in alternativa si può utilizzare anche il comando rd).
+runas	permette a un utente di eseguire comandi con i permessi di un altro utente. Così si possono ad esempio eseguire comandi come amministratore da un normale account a condizione che si conosca la password.
+scandisk	avvia Microsoft ScanDisk, un programma che controlla la presenza di errori sui supporti dati.
+schtasks	stabilisce l’esecuzione di determinati programmi e comandi in un determinato momento. Potete creare, cancellare, modificare e farvi mostrare tutti i compiti pianificati.
+set	mostra le variabili di ambiente di CMD.EXE e permette di configurarle.
+shift	sposta variabili all’interno di file batch e script.
+shutdown	spegne il computer (/s), lo riavvia (/r) o disconnette l’utente (/l). Se inserite come prima opzione il parametro /i, vi viene mostrata un’interfaccia grafica.
+sort	estrapola dati (da un file o da un comando) e li restituisce ordinati, direttamente nella riga di comando, in un nuovo file o in altro modo.
+start	apre una nuova finestra del prompt dei comandi, dove può essere avviato uno specifico programma o un comando.
+subst	assegna a un percorso una lettera di un drive e crea così un drive virtuale.
+taskkill	termina uno o più task indicando l’ID del processo (PID) o il nome visualizzato.
+tasklist	elenca tutti i processi in corso anche sui computer remoti, se richiesto. Anche in questo caso si deve inserire l’ID del processo che serve ad esempio per il comando taskkill.
+time	mostra l’ora corrente e permette di modificarla. Se si inserisce il parametro /T, la riga di comando mostra solo l’ora e non dà direttamente la possibilità di modificarla.
+timeout	ferma un processo per un tempo determinato. Il comando viene utilizzato nei file batch e negli script. Se si usa il parametro /NOBREAK, il comando ignora tutte le immissioni.
+title	cambia il titolo del prompt dei comandi. Qui sono ammessi gli spazi, ma non tutti i caratteri speciali, perché ad esempio lo slash viene interpretato come introduzione per un parametro.
+tree	rappresenta graficamente la struttura di directory di un drive o di un percorso. Con il parametro /F vengono anche elencati tutti i file presenti nelle cartelle. /A fa in modo che vengano utilizzati solo i caratteri ASCII per la rappresentazione grafica. Il comando tiene conto di tutte le sottocartelle a partire dal percorso inserito. Se non inserite nessun percorso, come punto di partenza viene utilizzata la cartella corrente.
+type	mostra il contenuto di un file di testo.
+tzutil	mostra il fuso orario corrente impostato (/g) o lo modifica (/s). Il parametro /l aiuta a individuare il giusto fuso orario.
+ver	mostra il numero della versione corrente di Windows o MS-DOS.
+	
+File	
+Comando CMD	Descrizione
+append	stabilisce il percorso in cui si devono cercare i file.
+assoc	modifica il programma che è collegato con una determinata estensione di un file.
+attrib	modifica gli attributi di determinati file. Con il parametro +R proteggete ad esempio un file dalle modifiche.
+cipher	mostra e cambia lo stato di crittografia dei file e delle cartelle sulle partizioni NTFS.
+comp	compara i contenuti di due file o di due set di file. Il risultato può essere presentato sotto forma di valore decimale (/D) o con caratteri ASCII (/A).
+compact	mostra e cambia lo stato di compressione dei file e delle cartelle sulle partizioni NTFS.
+copy	copia uno o più file in un altro posto. Inoltre è possibile unire più file in uno. Potete utilizzare l’asterisco come carattere jolly.
+cscript	esegue script tramite Microsoft Script Host. Con l’opzione /D attivate anche il processo di debug.
+del	cancella uno o più file. È possibile eliminare tutti i file presenti nelle sottocartelle con il parametro /S. I file protetti da scrittura si possono cancellare con /F. In alternativa si può utilizzare anche il comando erase.
+deltree	elimina una cartella così come tutte le sottocartelle e i file in essa contenuti.
+diantz	comprime i file senza perdita di qualità nel formato CAB. Il comando ha la stessa funzione di makecab.
+diskcomp	compara il contenuto di due dischetti.
+diskcopy	copia il contenuto di un dischetto su un altro.
+endlocal	termina la validità delle modifiche nei file batch o negli script. Dopo il comando le modifiche si riferiscono di nuovo all’intero sistema. Con setlocal si avvia la localizzazione.
+erase	ha la stessa funzione di del.
+exe2bin	converte un file EXE in uno BIN.
+expand	estrae file e cartelle che si trovano nei file CAB.
+extrac32	estrae file e cartelle che si trovano nei file CAB. Il programma fa parte di Internet Explorer, ma può essere usato anche nel prompt dei comandi.
+extract	estrae file e cartelle che si trovano nei file CAB. Le versioni più recenti di Windows utilizzano expand.
+fc	compara due file personali o due set di file tra di loro e mostra le differenze.
+for	stabilisce che deve essere eseguito un comando determinato per un singolo file contenuto in un set. Il comando viene utilizzato soprattutto nei file batch e negli script.
+forfiles	seleziona uno o più file ed esegue un comando che si riferisce ai file. Viene utilizzato soprattutto per file batch e script.
+ftype	determina un programma con cui si deve aprire uno specifico tipo di file.
+goto	fa saltare l’esecuzione di un programma batch in una determinata riga.
+if	rappresenta un’istruzione condizionata e come tale esegue queste espressioni all’interno di file batch solo in presenza di determinate condizioni. Può essere ampliato tramite not, quando non possono essere eseguiti i comandi per determinate condizioni.
+makecab	comprime i file senza perdita di qualità nel formato CAB. In alternativa si può utilizzare anche il comando diantz.
+mklink	crea un collegamento simbolico a un file. Con /D si possono creare anche i collegamenti alle directory. Create un collegamento fisico al posto di uno simbolico con /H.
+move	sposta uno o più file da una cartella a un’altra. Inoltre il comando può cambiare il nome delle cartelle. Di solito il comando sovrascrive i file con lo stesso nome al momento di spostare i file nella destinazione. Per impedirlo utilizzate il parametro /-Y.
+openfiles	mostra e divide i file e le cartelle pubbliche di un sistema.
+recover	ripristina file leggibili che si trovano su un supporto dati difettoso.
+ren	cambia il nome di un determinato file. Non si possono cambiare la cartella e il drive. In alternativa si può anche utilizzare il comando rename.
+rename	ha la stessa funzione di ren.
+replace	sostituisce uno o più file selezionati con uno o più file. Con /S vengono sostituiti anche i file nelle sottocartelle. Servendosi dell’aggiunta /U, i file vengono sostituiti se l’altra versione è più recente. Il parametro /A consente agli utenti di aggiungere nello stesso momento nuovi file nella cartella di destinazione. Questo parametro non è compatibile con /S e /U.
+robocopy	consente la cosiddetta hard copy dei file. Si tratta di una versione avanzata di copy e xcopy. Così con robocopy è possibile eseguire un trasferimento dati, anche se ci sono interruzioni nella rete. Ci sono in totale 72 parametri con i quali si può regolare questo comando.
+rsm	gestisce i contenuti multimediali sui supporti rimovibili. Viene utilizzato nei file batch e negli script per supportare i programmi che non utilizzano la Removable Storage API.
+setlocal	limita la validità delle modifiche nei file batch o negli script. Dopo il comando le modifiche si riferiscono solo a questi file. Con endlocal si avvia la localizzazione.
+share	installa il file sharing e il file locking.
+sxstrace	avvia WinSxs Tracing Utility, uno strumento di diagnostica per la programmazione.
+takeown	ripristina i permessi di accesso degli amministratori su un file, andati persi con la nuova assegnazione di un utente.
+undelete	annulla il comando di eliminazione di un file.
+verify	se attivo, verifica se i file sono stati scritti correttamente su un supporto dati. Di default la verifica è disattivata.
+where	trova i file che corrispondono a un determinato schema di ricerca. All’interno dello schema si possono utilizzare i segnaposto * e ?.
+xcopy	copia i file e le strutture complete delle directory. A questo scopo il comando offre innumerevoli opzioni aggiuntive. Così si può ad esempio stabilire che vengano copiati solo quei file che precedono una determinata data (/D) o che vengano sovrascritti anche i file protetti da scrittura (/R).
+	
+Sistema	
+Comando CMD	Descrizione
+at	fa avviare i comandi e i programmi a un determinato orario. Con il parametro /every:data[,…] potete anche stabilire appuntamenti regolari.
+auditpol	indica le linee guida di controllo correnti.
+backup	crea backup di file che possono essere ripristinati con restore (sostituito da msbackup).
+bcdboot	crea e ripara i file di avvio.
+bcdedit	permette agli utenti di apportare modifiche alla memoria dei dati della configurazione di avvio. Il comando è la versione più recente di bootcfg.
+bdehdcfg	prepara un disco rigido per BitLocker Drive Encryption.
+bootcfg	crea, modifica o mostra il contenuto di boot.ini. A partire da Windows 7 è ancora presente su CMD ma ha perso la sua funzione, visto che questo file non viene più utilizzato per le opzioni di avvio. Al suo posto si dovrebbe usare bcdedit.
+bootsect	adatta il codice Master Boot per renderlo compatibile con il Windows Boot Manager o l’NT Loader. Su Windows 7 e Vista può essere avviato solo tramite il ripristino di sistema.
+cacls	modifica e mostra la lista di controllo degli accessi (abbreviata in ACL, “Access Control List”) che stabilisce i permessi di accesso. Tuttavia è un comando datato che è stato sostituito nelle versioni di Windows più recenti con icacls.
+chkdsk	verifica e ripara (con il parametro /R) un supporto dati.
+chkntfs	modifica o mostra la verifica dei supporti dati all’avvio.
+cmdkey	può mostrare (/list), creare (/add) e cancellare (/delete) le informazioni di login.
+convert	converte le partizioni FAT/FAT32 in NTFS.
+ctty	modifica l’input e l’output standard per il sistema.
+dblspace	crea o configura drive compressi. Una versione più recente del comando si chiama drvspace.
+defrag	deframmenta tutti o solo determinati drive. Utilizzate /U per monitorare i progressi. Per ricevere dopo la deframmentazione una statistica di valutazione, utilizzate il parametro /V.
+diskpart	gestisce, crea e cancella le partizioni sui dischi rigidi.
+diskperf	consente agli utenti di controllare da remoto il Disk Performance Counter.
+diskraid	gestisce i sistemi RAID.
+dism	controlla e aggiunge le immagini di Windows.
+dispdiag	crea un file nella cartella corrente in cui si trovano le informazioni sul vostro schermo.
+dosx	avvia DOS Protected Mode Interface, in cui sono previsti più di 640 KB di memoria per i programmi MS-DOS. È ancora disponibile solo per supportare programmi DOS più datati.
+driverquery	crea una lista con tutti i driver installati.
+drvspace	crea o configura tutti i drive compressi. Una versione più datata del comando si chiama dblspace.
+emm386	mette a disposizione di DOS più di 640 KB di memoria.
+esentutl	gestisce i database all’interno dell’Extensible Storage Engine.
+eventcreate	crea un record (ID e messaggio) in un protocollo eventi.
+eventtriggers	configura e mostra il trigger per gli eventi.
+fdisk	crea, cancella e gestisce le partizioni sul disco rigido. Nelle versioni di Windows più recenti si usa diskpart.
+fltmc	consente agli utenti di mostrare e gestire i driver di filtro.
+fondue	installa feature di Windows aggiuntive. Il comando è l’abbreviazione per lo strumento di base Features on Demand User Experience Tool.
+format	formatta un drive sul file system indicato dall‘utente.
+fsutil	dispone di moltissime funzioni che riguardano i file di sistema, come la rimozione di drive.
+hwrcomp	compila i dizionari creati manualmente per il riconoscimento della scrittura.
+hwrreg	installa un dizionario compilato per il riconoscimento della scrittura.
+icacls	modifica e mostra la lista di controllo degli accessi che stabilisce i permessi di accesso. Una versione datata di questo comando è cacls.
+ktmutil	avvia il kernel Transaction Manager.
+label	modifica o cancella la denominazione di un drive.
+lh	carica un determinato programma nell’Upper Memory Block (UMB); ha la stessa funzione di loadhigh.
+licensingdiag	genera un file XML e CAB in cui sono contenute le informazioni sulla licenza di Windows.
+loadfix	assicura che venga caricato ed eseguito un programma oltre i primi 64 KB di memoria.
+loadhigh	ha la stessa funzione di lh.
+lock	blocca un drive tramite il quale solo un programma selezionato preliminarmente dall’utente può accedere direttamente.
+lodctr	aggiorna tutti i valori del registro di sistema che riguardano i contatori di performance.
+logman	crea e gestisce sessioni di Traccia eventi e di log di performance.
+manage-bde	configura la crittografia del drive con BitLocker. Con –on cifrate un drive. Con –off lo decifrate nuovamente e terminate così anche la protezione con BitLocker.
+mem	mostra le informazioni sulla memoria e segnala quali programmi vi sono già caricati.
+memmaker	ottimizza la memoria.
+mode	configura i dispositivi di sistema, soprattutto sulla porta COM o LPT.
+mofcomp	analizza i file nel Managed Object Format (MOF) e aggiunge le classi e le istanze al repository WMI.
+mountvol	crea, cancella e mostra i punti di montaggio per i drive.
+msav	avvia Microsoft Antivirus.
+msbackup	avvia Microsoft Backup (sostituisce backup e restore).
+mscdex	carica il supporto CD-ROM per MS-DOS.
+msd	avvia il programma Microsoft Diagnostics con cui si possono visualizzare le informazioni di sistema.
+msiexec	avvia Windows Installer con cui si può installare e configurare Windows.
+muiunattend	avvia un processo di setup automatizzato per la Multilingual User Interface (MUI).
+netcfg	installa il sistema operativo minimizzato Microsoft Windows PE.
+ocsetup	installa funzioni di Windows aggiuntive.
+pentnt	riconosce gli errori del numero in virgola mobile nei chip di Pentium, ne avvia l’emulazione e disattiva l’hardware.
+pkgmgr	installa, disinstalla e configura pacchetti e funzioni per Windows.
+pnpunattend	automatizza l’installazione dei driver dei dispositivi.
+pnputil	installa i dispositivi plug-and-play dal prompt dei comandi.
+power	utilizza lo stato IDLE di un processore per risparmiare sull’uso delle risorse.
+powercfg	permette all’utente di modificare le opzioni energetiche del computer e controlla i piani di risparmio energetico.
+pwlauncher	configura le opzioni di avvio per Windows To Go, di modo che si possa fare il boot di Windows da una pendrive USB.
+qprocess	fornisce informazioni sui processi in corso.
+query	mostra lo stato di un determinato servizio.
+quser	fornisce informazioni sugli utenti loggati al momento.
+reagentc	configura l’ambiente di ripristino di Windows tramite il quale si può riparare l’installazione del sistema operativo.
+recimg	crea un’immagine di Windows personalizzata per ripristinare il sistema.
+reg	gestisce il registro di sistema dal prompt dei comandi. Così gli utenti possono creare nuove chiavi (reg add) e cancellarle (reg delete).
+regini	modifica le autorizzazioni per il registro di sistema.
+register-cimprovider	registra il Common Information Model (CIM) su Windows.
+regsvr32	registra un file DLL nel registro di sistema.
+relog	crea nuovi protocolli di verifica delle prestazioni dai dati già presenti nei protocolli.
+repair-bde	ripara e decifra i drive difettosi che sono stati crittografati con BitLocker. I file dovrebbero essere salvati su un drive sostitutivo.
+reset	resetta una sessione. In alternativa si può utilizzare anche il comando rwinsta.
+restore	ripristina i backup che sono stati creati tramite il comando backup (sostituito da msbackup).
+rwinsta	ha la stessa funzione di reset.
+sc	gestisce i servizi stabilendo una connessione con il Service Controller.
+scanreg	ripara il registro di sistema e consente di crearne un backup.
+sdbinst	applica database personalizzati (SDB).
+secedit	analizza le impostazioni per la sicurezza comparando la configurazione corrente attuale con i template. Grazie a questo comando si possono anche configurare, importare ed esportare le impostazioni.
+setver	stabilisce il numero di versione di MS-DOS che viene dato a un programma, anche se non corrisponde alla versione effettiva.
+setx	crea o modifica le variabili di ambiente nell’ambiente di sistema o in quello utente.
+sfc	verifica tutti i file di sistema importanti e protetti. Le versioni errate vengono anche sostituite da quelle corrette.
+smartdrv	avvia e gestisce il programma di cache del disco rigido SMARTDrive.
+sys	copia i file di sistema di MS-DOS e l’interprete dei comandi su un altro drive, che così si può avviare.
+systeminfo	mostra le informazioni sull’installazione di Windows comprensive di tutti i service pack installati. Le informazioni si possono ottenere sia dal sistema locale che dal computer remoto.
+tpmvscmgr	crea e cancella le smart card virtuali TPM, cioè delle smart card virtuali che sono criptate sulla base di moduli Trusted Platform.
+tracerpt	modifica file di log o dati in tempo reale che sorgono durante lo svolgimento di programmi per il computer.
+typeperf	mostra i dati della verifica delle prestazioni o li scrive in un file.
+unformat	ripristina la formattazione di un drive con il comando format.
+unlock	sblocca un drive che era stato bloccato con lock.
+unlodctr	cancella sia il nome sia le spiegazioni per la verifica delle prestazioni, ampliabili nel registro di sistema di Windows.
+vaultcmd	crea, cancella e mostra le informazioni di login memorizzate.
+vol	mostra la denominazione e il numero di serie di un drive.
+vsafe	avvia il software antivirus VSafe.
+vssadmin	gestisce le shadow copy dei volumi con cui si possono salvare diverse versioni (snapshot) dei drive.
+wbadmin	crea backup del sistema operativo e fornisce informazioni al riguardo.
+wevtutil	gestisce i protocolli eventi e i file del protocollo eventi.
+whoami	fornisce indicazioni sull’utente corrente. Con il parametro /GROUP si ottengono anche informazioni sugli appartenenti al gruppo.
+winmgmt	gestisce repository WMI, così è ad esempio possibile creare backup (/backup) con questo comando.
+winsat	valuta diversi fattori del sistema, come la performance del processore o le competenze grafiche.
+wmic	avvia gli strumenti di gestione di Windows nel prompt dei comandi. In questo modo si possono modificare innumerevoli impostazioni di Windows, sia in locale che da computer remoto.
+xwizard	registra i dati Windows sotto forma di file XML.
+	
+Rete	
+Comando CMD	Descrizione
+arp	mostra e modifica i record che si trovano nella cache del protocollo Address Resolution.
+atmadm	mostra informazioni sulla modalità di trasferimento asincrono (Asynchronous Transfer Mode, ATM).
+certreq	gestisce e crea i requisiti del registro di certificato presso gli enti di certificazione.
+certutil	gestisce i servizi relativi all’autenticazione del certificato.
+change	modifica le impostazioni di un server usato come terminale e viene utilizzato con i parametri logon, port o user. Sostituisce i comandi chglogon, chgport e chgusr.
+checknetisolation	verifica la connettività delle app dal Windows Store.
+chglogon	attiva, disattiva o sincronizza i login nelle sessioni del terminale.
+chgport	mostra o modifica l’assegnazione delle porte COM nei terminali per la compatibilità con DOS.
+chgusr	modifica la modalità di installazione su un terminale.
+cmstp	installa o disinstalla i profili per il gestore delle connessioni.
+djoin	crea un nuovo account del computer nell’Active Directory Domain Services (AD DS).
+finger	fornisce informazioni sugli utenti dei dispositivi remoti che utilizzano il servizio finger.
+ftp	trasferisce dati a un server FTP o da questo a un PC. Il comando vi offre altre opzioni: così potete ad esempio attivare il processo di debug con -d.
+getmac	mostra l’indirizzo MAC di tutti gli adattatori di rete. Stabilite il formato di output (Table, List, CSV) con /FO. Con /S potete applicare il comando anche ai sistemi remoti.
+gpresult	mostra informazioni sulla Group Policy.
+gpupdate	aggiorna le informazioni sulla Group Policy.
+hostname	restituisce il nome dell’host corrente.
+interlnk	collega due computer tramite connessione seriale o parallela per condividere file o stampanti.
+intersvr	avvia un server Interlnk e trasferisce i dati da un computer a un altro tramite connessione seriale o parallela.
+ipconfig	fornisce informazioni sull’IP di ogni adattatore di rete utilizzato. Inoltre si possono condividere gli indirizzi (/release) o aggiornarli (/renew). Invece con /flushdns si può svuotare la cache DNS.
+ipxroute	modifica e mostra le informazioni sulle tabelle di routing IPX.
+irftp	trasferisce i file tramite connessione a infrarossi, se disponibile.
+iscsicli	gestisce iSCSI, dove sono possibili connessioni tramite il protocollo SCSI.
+klist	mostra tutti i ticket con cui ci si è autenticati con il servizio Kerberos. Inoltre consente di cancellare i ticket (purge).
+ksetup	configura una connessione al server Kerberos.
+mount	attiva la condivisione della rete sul Network File System. Per utilizzare il comando devono essere attivati prima di tutto i servizi NFS.
+mrinfo	fornisce informazioni sul router.
+nbtstat	mostra statistiche e informazioni sulle connessioni TCP/IP sui computer remoti.
+net	configura e mostra le impostazioni di rete.
+net1	configura e mostra le impostazioni di rete. Si consiglia però di utilizzare il comando net. Il comando net1 è stato pensato solo come soluzione temporanea per il problema dello Y2K.
+netsh	avvia la shell di rete con cui si possono prendere le impostazioni di rete per i computer locali e remoti.
+netstat	mostra statistiche e informazioni sulle connessioni TCP/IP sui computer locali.
+nfsadmin	gestisce i server e i client NFS. Per utilizzare il comando devono essere attivati prima di tutto i servizi NFS su Windows.
+nltest	mostra informazioni sui canali sicuri negli Active Directory Domain Services (AD DS) e testa queste connessioni.
+nslookup	invia una richiesta DNS a un determinato IP o a un determinato nome host dei DNS server preimpostati. In alternativa si può indicare un altro server DNS.
+ntsd	esegue il processo di debug.
+pathping	fornisce informazioni sul reindirizzamento e le perdite dei pacchetti al momento dell’invio in una rete e indica anche il tempo di latenza.
+ping	invia una richiesta echo del protocollo Internet Control Message a un determinato host per verificare se è raggiungibile. Inoltre viene indicata la durata che la richiesta echo ha impiegato. Con -t si possono inviare progressivamente segnali ping. Premete i tasti CTRL + Interr per visualizzare la statistica relativa a questa azione. Potete interrompere il procedimento con CTRL + C.
+qappsrv	mostra tutti i computer remoti disponibili nella rete.
+qwinsta	mostra le informazioni sulle sessioni aperte del desktop remoto.
+rasautou	gestisce gli indirizzi autodial.
+rasdial	avvia e termina le connessioni di rete per i client Microsoft.
+rcp	copia i file di un computer Windows su un server su cui funziona un demone RSDH e viceversa.
+rdpsign	firma un file del protocollo Remote Desktop (file RDP).
+rexec	esegue comandi su un computer remoto su cui è in funzione un demone Rexec.
+route	mostra la tabella di routing e permette di modificarne i record (change), di aggiungerli (add) o cancellarli (delete).
+rpcinfo	invia una Remote Procedure Call (RPC) a un server RPC. Il risultato mostra i programmi sul computer remoto. Per utilizzare il comando devono essere attivati i servizi NFS su Windows.
+rpcping	invia un ping a un server tramite Remote Procedure Call (RPC) e verifica così se è possibile una connessione.
+rsh	esegue comandi sui computer remoti su cui funziona il programma di UNIX Remote Shell (RSH).
+setspn	crea, cancella e modifica SPN, cioè dei denominatori univoci per servizi in una rete che utilizza l’autenticazione Kerberos.
+shadow	controlla la sessione su un computer remoto. Inoltre l’utente può anche controllare attivamente il computer remoto.
+showmount	fornisce informazioni sui file di sistema NFS. Per utilizzare il comando dovete attivare preliminarmente i servizi NFS su Windows.
+tcmsetup	attiva o disattiva un client per la Telephony Application Programming Interface (TAPI), un’interfaccia di programmazione per le applicazioni di telefonia.
+telnet	consente la comunicazione con un altro computer che utilizza anche il protocollo telnet.
+tftp	consente uno scambio di file tra il computer locale e un server, che supporta il Trivial File Transfer Protocol (TFTP). Per utilizzare il comando deve essere attivo il client TFTP nelle impostazioni di sistema.
+tlntadmn	gestisce un server telnet su un computer locale o remoto. Per utilizzare il comando devono essere attive le funzioni del server telnet nelle impostazioni di sistema.
+tracert	segue un pacchetto nel percorso dalla rete a un server. Non viene solo verificato se il pacchetto arriva e quanto tempo impiega, ma vengono registrati anche gli hop che il pacchetto fa lungo il suo percorso. Tutti i pacchetti hanno un Time-To-Live (TTL) predefinito che aumenta per gradi con il comando.
+tscon	collega la sessione utente locale e corrente con una sessione in un computer remoto.
+tsdiscon	termina la connessione tra una sessione utente locale e corrente con una sessione in un computer remoto.
+tskill	termina un processo su un computer remoto.
+tsshutdn	spegne un terminale remoto o lo riavvia. Se il computer in questione lo supporta, si può anche spegnere completamente il computer in questo modo.
+umount	rimuove i drive integrati del file system di rete. Per utilizzare il comando dovete attivare le funzioni NFS nel pannello di controllo.
+w32tm	gestisce il servizio dell’ora per Windows, sincronizzando la data e l’ora su tutti i computer che si trovano insieme in uno dei domini AD-DS.
+waitfor	invia un segnale o ne aspetta uno. Se il segnale non deve essere inviato a tutti i computer in un dominio ma solo a uno in particolare, si utilizza il parametro /S. Con il comando i computer all’interno di una rete vengono sincronizzati.
+wecutil	crea e gestisce gli abbonamenti per gli eventi che vengono reindirizzati dall’origine degli eventi remoti che supportano il protocollo di gestione WS.
+winrm	gestisce le connessioni sicure tra computer locali e remoti tramite il protocollo di gestione WS.
+winrs	consente di accedere tramite una connessione sicura alla riga di comando di un computer remoto e di apportare così le modifiche. Se la crittografia deve essere interrotta, utilizzate –un.
